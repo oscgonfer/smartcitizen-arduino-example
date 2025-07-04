@@ -23,7 +23,6 @@ void sendNTPpacket(IPAddress &address)
     packetBuffer[1] = 0;
     packetBuffer[2] = 6;
     packetBuffer[3] = 0xEC;
-
     packetBuffer[12] = 49;
     packetBuffer[13] = 0x4E;
     packetBuffer[14] = 49;
@@ -73,7 +72,6 @@ time_t ntpProvider()
     return getNtpTime();
 }
 
-// **** Time
 void setNTPprovider()
 {
     // Update time

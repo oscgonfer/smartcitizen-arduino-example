@@ -1,0 +1,10 @@
+{
+    "mqtt_server": "mqtt.smartcitizen.me",
+    "mqtt_port": 1883,
+    "ntp_server": "ntp.smartcitizen.me",
+    "ntp_port": 80,
+    "token": "83d9ja",
+    "wifi_ssid": "WIFI",
+    "wifi_psk": "PASSWORD",
+    "pub_int": 60
+}
