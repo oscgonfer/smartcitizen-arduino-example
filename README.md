@@ -1,8 +1,6 @@
 # Smart Citizen Arduino Example
 
-Example to send data over to Smart Citizen with an Arduino.
-
-This is a **very** simple example to send data to an MQTT broker, using a simple arduino. This particular example was developed with a Adafruit HUZZAH ESP8266 + Adalogger module (RTC + SD-card), taking components from the [smartcitizen-kit-2x firmware](https://github.com/fablabbcn/smartcitizen-kit-2x). It is by no means an attempt to replace the complexity of that firmware, as this is only meant for educational purposes or very simple prototypes, as a demo. For real-world deployments, use the [Smart Citizen Kit](https://docs.smartcitizen.me).
+This is a **very** simple example to send data to Smart Citizen MQTT broker, using an Arduino. This particular example was developed with a Adafruit HUZZAH ESP8266 + Adalogger module (RTC + SD-card), taking components from the [smartcitizen-kit-2x firmware](https://github.com/fablabbcn/smartcitizen-kit-2x) and previous projects. It is by no means an attempt to replace the complexity of that firmware, as this is only meant for educational purposes or very simple prototypes, as a demo. For real-world deployments, use the [Smart Citizen Kit](https://docs.smartcitizen.me).
 
 ## Changing the sensors
 
@@ -53,10 +51,10 @@ Example configuration:
 }
 ```
 
-- `mqtt_server": Address of the MQTT broker to send data to. Eg: `"mqtt.smartcitizen.me"``
-- `mqtt_port": MQTT broker port. No quotes. Eg: `1883`
-- `ntp_server": Address of the NTP server, to get network time from. Eg: `"ntp.smartcitizen.me"``
-- `ntp_port": NTP server port. No quotes. Eg: `80`
-- `token": Token from Smart Citizen platform, to identify your device. Get it on https://start.smartcitizen.me. Eg: `"83d9ja"`
-- `wifi_ssid": Wi-Fi network name. Eg: `"MYWIFI"`
-- `wifi_psk": Wi-Fi network password `"PASSWORD"`.
+- `mqtt_server"`: Address of the MQTT broker to send data to. Eg: `"mqtt.smartcitizen.me"``
+- `mqtt_port"`: MQTT broker port. No quotes. Eg: `1883`
+- `ntp_server"`: Address of the NTP server, to get network time from. Eg: `"ntp.smartcitizen.me"``
+- `ntp_port"`: NTP server port. No quotes. Eg: `80`
+- `token"`: Token from Smart Citizen platform, to identify your device. Get it on https://start.smartcitizen.me. Eg: `"83d9ja"`
+- `wifi_ssid"`: Wi-Fi network name. Eg: `"MYWIFI"`
+- `wifi_psk"`: Wi-Fi network password `"PASSWORD"`.
